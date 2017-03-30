@@ -2,9 +2,18 @@
   activerecord:
     models:
       contact: Contato
+      phone: Telefone
+      kind: Tipos de Contato
+      address: Endereço
     attributes:
       contact:
         name: "Nome"
         email: "Email"
         kind: "Tipo de Contato"
         rmk: "Obs"
+      phone:
+        phone: "Telefone"
+      address:
+        street: "Rua"
+        city: "Cidade"
+        state: "Estado"
